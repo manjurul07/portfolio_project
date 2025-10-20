@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+/* header section -------------------------- */
+header,
+nav {
+    background-color: #343a40;
+}
+
+.nav-content {
+    margin-top: 20px;
+    align-items: center;
+}
+.nav-content button {
+    border:none;
+    background-color: white;
+}
+
+.nav-content ul li a {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.nav-content ul li a:hover {
+    color: gray;
+}
+
+.search-bar {
+    width: 350px;
+}
+
+.search-bar input {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.search-bar input:focus {
+    background-color: transparent;
+    color: #fff;
+    outline: 0;
+}
+.search-bar input::placeholder {
+    color: white;
+    padding:20px;
+}
+
+/* Hero Section ------------------------- */
+
+.hero-section {
+    background-color: #343a40;
+    position: relative;
+}
+.hero-main img {
+    width: 470px;
+    margin-left: 100px;
+}
+
+.skill-one {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #5a189a;
+    color: #fff;
+    position: absolute;
+    top: 28%;
+    left: 24%;
+}
+
+.skill-two {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: #fff;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+}
+
+.skill-three {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: orange;
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+}
+
+.hero-main h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    width: 30%;
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    line-height: 1;
+}
+
+.hero-text {
+    width: 30%;
+    text-align: left;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.hero-text p {
+    font-size: 13px;
+    text-align: justify;
+    margin: 10px auto;
+    line-height: 1.6;
+    color: lightgray;
+}
+
+.hero-text button {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 8px 24px;
+    margin-top: 10px;
+}
+
+/* About Section ------------------------------- */
+
+.about {
+    background-color: #293241;
+    border: 1px solid #293241;
+}
+
+.about-content {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.about-exp {
+    width: 50%;
+    color: white;
+}
+
+.about-exp h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: gray;
+}
+
+.exp-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 30px;
+}
+
+.about-exp .exp {
+    width: 100px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.about-exp .exp h3 {
+    color: skyblue;
+    font-size: 36px;
+}
+
+.about-exp .exp p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-exp .client {
+    width: 100px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.about-exp .client h3 {
+    color: skyblue;
+    font-size: 36px;
+}
+
+.about-exp .client p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-text {
+    width: 50%;
+    padding: 40px;
+}
+
+.about-text h3 {
+    color: white;
+}
+
+.about-text p {
+    font-size: 13px;
+    text-align: justify;
+    margin: 10px auto;
+    line-height: 1.6;
+    color: lightgray;
+}
+
+.about hr {
+    border: 0.2px solid gray;
+}
+
+/* Sponsored Section -------------------------------- */
+
+.sponsored {
+    background-color: #293241;
+    border: 1px solid #293241;
+}
+
+.sponsored .brand-img {
+    width: 80%;
+    margin: 10px auto 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+}
+
+/* Services Section------------------------------------------ */
+
+.services {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    height: 280px;
+}
+
+.service {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-first {
+    width: 220px;
+    height: 200px;
+    background-color: #414855;
+    padding: 50px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 1190px;
+    left: 200px;
+}
+
+.card-first-content {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.card-first-content p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.card-mid {
+    width: 220px;
+    height: 200px;
+    background-color: #636CCB;
+    padding: 50px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 1190px;
+    left: 40%;
+}
+
+.card-mid .card-mid-content {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.card-mid .card-mid-content p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.card-third {
+    width: 220px;
+    height: 200px;
+    background-color: #414855;
+    padding: 50px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 1190px;
+    right: 200px;
+}
+
+.card-third-content {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.card-third-content p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* Tools Section ----------------------------------- */
+
+.tools {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+}
+
+.tool-img {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.tools h3 {
+    text-align: center;
+    color: gray;
+    font-size: 36px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+
+.tool-img img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+/* Banner Section----------------------------------- */
+
+.banner img {
+    width: 100%;
+}
+
+/* Contcct section-------------------------------------- */
+
+.contact {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    margin-top: -10px;
+}
+
+.contact-content {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact-area {
+    width: 40%;
+    border: 2px solid #636CCB;
+    border-radius: 30px;
+    padding: 20px 40px;
+    margin-top: 25px;
+}
+
+.contact-area h3 {
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 1.1;
+    color: white;
+    margin: 10px 0px;
+}
+
+.contact-area .mail {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.contact-area .phone {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.contact-area .address {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.contact-msg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    transform: rotate(20deg);
+    border-radius: 50%;
+    background-color: #636CCB;
+    color: #fff;
+    position: absolute;
+    top: 87.5%;
+    left: 500px;
+}
+
+.form-area {
+    width: 50%;
+}
+
+.form-area form {
+    border: 2px solid #636CCB;
+    border-radius: 30px;
+    padding: 20px 40px;
+    margin-top: 25px;
+}
+
+.form-area label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-area input {
+    width: 95%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #636CCB;
+    background-color: transparent;
+}
+
+.form-area textarea {
+    width: 95%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #636CCB;
+    background-color: transparent;
+}
+
+.form-area input[type="submit"] {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #636CCB;
+    padding: 8px 20px;
+    border-radius: 40px;
+    width: 100px;
+}
+
+/* Footer Section --------------------------------------- */
+
+footer {
+    background-color: #343a40;
+    border: 1px solid #343a40;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.footer-content h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-content i {
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+/* Media Section---------------------------*/
+
+@media (max-width:480px) {
+    .search-bar {
+        width: 200px;
+    }
+    .hero-main img {
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .skill-one {
+        width: 80px;
+        height: 80px;
+        font-size: 11px;
+        top: 14%;
+        left: 17%;
+    }
+    .skill-two {
+        width: 80px;
+        height: 80px;
+        font-size: 11px;
+        top: 17%;
+        left: 67%;
+    }
+    .skill-three {
+        width: 80px;
+        height: 80px;
+        font-size: 11px;
+        top: 37%;
+        left: 62%;
+    }
+    .hero-main h1{
+        font-size: 40px;
+        width: 40%;
+        top: 36%;
+        left: 10%;
+    }
+    .hero-text {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 12px;
+        text-align: justify;
+    }
+}
+@media (max-width:768px) {
+
+    .search-bar {
+        width: 400px;
+    }
+    .hero-main img {
+        width: 400px;
+        margin-left: 35%;
+        margin-top: 20px;
+    }
+    .skill-one {
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+        top: 18%;
+        left: 28%;
+    }
+    .skill-two {
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+        top: 22%;
+        left: 62%;
+    }
+    .skill-three {
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+        top: 50%;
+        left: 57%;
+    }
+    .hero-main h1{
+        font-size: 60px;
+        width: 40%;
+        top: 44%;
+        left: 16%;
+    }
+    .hero-text {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 12px;
+        text-align: justify;
+    }
+}
