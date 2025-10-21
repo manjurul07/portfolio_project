@@ -505,12 +505,11 @@ footer {
 
 @media (max-width:480px) {
     .search-bar {
-        width: 150px;
+        width: 120px;
     }
 
     .hero-main img {
         width: 300px;
-        margin-left: 20px;
         margin-top: 20px;
     }
 
@@ -549,18 +548,49 @@ footer {
         width: 100%;
         margin: 20px 0px;
         font-size: 12px;
-        text-align: justify;
     }
+    
+    .about-text {
+        width: 100%;
+    }
+
     .brand-img {
+        width: 80%;
         margin: 0;
         gap: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
     }
+
     .brand-img img {
-        width: 50px;
+        width: 40px;
+    }
+
+    .card-first {
+        margin-bottom: 10px;
+    }
+
+    .card-mid {
+        margin-bottom: 10px;
+    }
+
+    .card-third {
+        margin-bottom: 10px;
+    }
+
+    .tool-img {
+        gap: 0;
+    }
+
+    .tool-img img {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    .contact-msg {
+        width: 80px;
+        height: 80px;
+        font-size: 11px;
+        top: 38%;
+        left: 72%;
     }
 }
 
@@ -619,10 +649,12 @@ footer {
 
     .brand-img {
         width: 100%;
+        gap: 0;
+        margin: 0;
     }
 
     .brand-img img {
-        width: 60px;
+        width: 50px;
     }
 
     .card-first {
