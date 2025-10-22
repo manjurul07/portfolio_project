@@ -500,7 +500,7 @@ footer {
 
 /* Media Section---------------------------*/
 
-@media (max-width:480px) {
+@media (max-width:410px) {
 
     body {
         width: 100%;
