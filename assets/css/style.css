@@ -241,14 +241,11 @@ nav {
 
 .sponsored {
     background-color: #293241;
+    height: 100px;
 }
-
-.sponsored .brand-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    height: 180px;
+.sponsored img {
+    width: 120px;
+    margin: 10px 40px 0px 40px;
 }
 
 /* Services Section------------------------------------------ */
@@ -509,7 +506,7 @@ footer {
         width: 100%;
     }
     .search-bar {
-        width: 120px;
+        width: 100%;
     }
 
     .hero-main img {
@@ -558,14 +555,8 @@ footer {
         width: 100%;
     }
 
-    .brand-img {
-        width: 80%;
-        margin: 0;
-        gap: 0;
-    }
-
     .brand-img img {
-        width: 40px;
+        width: 50px;
     }
 
     .card-first {
@@ -649,12 +640,6 @@ footer {
 
     .about-text {
         width: 100%;
-    }
-
-    .brand-img {
-        width: 100%;
-        gap: 0;
-        margin: 0;
     }
 
     .brand-img img {
