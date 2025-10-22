@@ -510,8 +510,9 @@ footer {
     }
 
     .hero-main img {
-        width: 300px;
+        width: 200px;
         margin-top: 20px;
+        margin-right: 50px;
     }
 
     .skill-one {
