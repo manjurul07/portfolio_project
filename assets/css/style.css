@@ -500,21 +500,20 @@ footer {
 
 /* Media Section---------------------------*/
 
-@media (max-width:410px) {
+@media (max-width:480px) {
 
     body {
         width: 100%;
     }
     .search-bar {
-        width: 100%;
+        width: 800%;
     }
 
     .hero-main img {
-        width: 200px;
+        width: 400px;
         margin-top: 20px;
         margin-right: 50px;
     }
-
     .skill-one {
         width: 80px;
         height: 80px;
@@ -571,7 +570,9 @@ footer {
     .card-third {
         margin-bottom: 10px;
     }
-
+    .tools h3 {
+        font-size: 24px;
+    }
     .tool-img {
         gap: 0;
     }
@@ -580,7 +581,12 @@ footer {
         width: 20px;
         margin-left: 20px;
     }
-
+    .contact-area h3 {
+        font-size: 36px;
+    }
+    .contact-area p {
+        font-size: 15px;
+    }
     .contact-msg {
         width: 80px;
         height: 80px;
